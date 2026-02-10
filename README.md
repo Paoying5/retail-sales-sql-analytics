@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Brian</h1>
+<h1 align="center"> 👋 Hello, I’m Brian, which is my online alias. My real name is Phạm Nguyễn Nhật Trường. Welcome to my GitHub repository </h1>
 
 <h3 align="center">Aspiring Data Analyst | SQL Server & Data Analytics</h3>
 
@@ -123,7 +123,9 @@ Execute in order:
 03_insert_sample_data.sql
 04_data_cleaning.sql
 05_analysis_queries.sql
-10_transactions.sql```
+10_transactions.sql
+```
+
 
 🎯 Learning Objectives
 
@@ -137,7 +139,7 @@ Business-driven SQL analysis
 
 👤 Author
 
-Brian – Aspiring Data Analyst Intern
+Brian [ Pham Nguyen Nhat Truong ] – Aspiring Data Analyst Intern
 
 GitHub: https://github.com/Paoying5
 
