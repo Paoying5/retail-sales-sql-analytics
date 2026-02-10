@@ -1,174 +1,179 @@
-Hi 👋, I'm Brian
-Aspiring Data Analyst | SQL Server & Data Analytics
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Paoying5&label=Profile%20views&color=0e75b6&style=flat" alt="Paoying5" /> </p>
+<h1 align="center">Hi 👋, I'm Brian</h1>
 
-I’m an aspiring Data Analyst Intern with a strong interest in SQL Server, data modeling, and business-oriented data analysis.
-This repository showcases a retail sales analytics project designed to simulate real-world data analysis tasks.
+<h3 align="center">Aspiring Data Analyst | SQL Server & Data Analytics</h3>
 
-📊 Retail Sales & Customer Analytics System
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Paoying5&label=Profile%20views&color=0e75b6&style=flat" alt="Paoying5" />
+</p>
 
-(Microsoft SQL Server)
+<p align="center">
+I’m an aspiring <b>Data Analyst Intern</b> with a strong interest in <b>SQL Server</b>, data modeling, and business-oriented data analysis.<br/>
+This repository showcases a <b>retail sales analytics system</b> designed to simulate real-world data analysis tasks.
+</p>
 
-🔎 Project Overview
+---
 
-This project simulates a retail sales system and demonstrates how Microsoft SQL Server can be used to:
+## 📊 Retail Sales & Customer Analytics System  
+**Technology:** Microsoft SQL Server
 
-Design a relational database
+---
 
-Enforce data integrity using constraints
+## 🔎 Project Overview
 
-Clean and standardize data
+This project simulates a **retail sales system** and demonstrates how **Microsoft SQL Server** can be used to:
 
-Perform business-focused analytical queries
+- Design a relational database  
+- Enforce data integrity using constraints  
+- Clean and standardize raw data  
+- Perform business-focused analytical queries  
 
-The project is built at an Internship / Fresher level, emphasizing clarity, correctness, and business understanding rather than overly complex SQL.
+The project is built at an **Internship / Fresher level**, emphasizing:
 
-🏢 Business Context
+> clarity · correctness · business understanding  
+> instead of overly complex or academic SQL
+
+---
+
+## 🏢 Business Context
 
 The system represents a retail business with:
 
-Multiple stores
+- 🏬 Multiple stores  
+- 📦 Multiple products  
+- 👥 Multiple customers  
+- 🧾 Sales transactions over time  
 
-Multiple products
+### Key business questions answered:
 
-Multiple customers
+- Which store generates the highest revenue?  
+- How does revenue change by month?  
+- Which products sell the most?  
+- Are customers returning or buying only once?  
 
-Sales transactions over time
+---
 
-Business questions addressed:
+## 🗂️ Database Design
 
-Which store generates the highest revenue?
+The database follows a **relational model** with the following tables:
 
-How does revenue change by month?
+| Table | Description |
+|------|------------|
+| Stores | Store information and location |
+| Products | Product catalog and pricing |
+| Customers | Customer demographic data |
+| Sales | Sales transactions (orders) |
+| SaleDetails | Line items per transaction |
 
-Which products sell the most?
+All relationships are enforced using **Primary Keys** and **Foreign Keys** to prevent invalid data.
 
-Are customers returning or buying only once?
+---
 
-🗂️ Database Design
+## 🔐 Data Integrity & Validation
 
-The database follows a relational model with the following tables:
+Business rules are enforced directly at the database level:
 
-Stores – store information and location
+- Total sales amount must be **non-negative**  
+- Product quantity must be **greater than zero**  
+- Unit price must be **non-negative**  
+- Sales date **cannot be in the future**  
 
-Products – product catalog and pricing
+➡️ This ensures incorrect data is blocked **before analysis begins**.
 
-Customers – customer demographic data
+---
 
-Sales – sales transactions (orders)
+## 🧹 Data Cleaning
 
-SaleDetails – line items per transaction
+To reflect real-world data issues, the project includes:
 
-All relationships are enforced using Primary Keys and Foreign Keys to prevent invalid data.
+- Handling missing product prices  
+- Standardizing missing customer birth years  
 
-🔐 Data Integrity & Validation
+These steps help avoid misleading analytical results.
 
-Basic business rules are enforced directly at the database level:
+---
 
-Total sales amount must be non-negative
+## 📈 Data Analysis & Insights
 
-Product quantity must be greater than zero
+The project provides insights such as:
 
-Unit price must be non-negative
+- Revenue by store  
+- Monthly revenue trends  
+- Top-selling products  
+- Average Order Value (AOV)  
+- Customer behavior (new vs returning customers)  
 
-Sales date cannot be in the future
+All queries are written with a **business-first mindset**.
 
-This ensures data quality before analysis begins.
+---
 
-🧹 Data Cleaning
+## 🧩 SQL Features Demonstrated
 
-To reflect real-world data scenarios, the project includes:
+- `JOIN` and aggregations  
+- Common Table Expressions (CTEs)  
+- Views for reusable reports  
+- Stored Procedures with parameters  
+- Transactions with error handling (`TRY / CATCH`)  
+- Indexes for basic performance optimization  
 
-Handling missing product prices
+---
 
-Standardizing missing customer birth years
+## ▶️ How to Run This Project
 
-These steps help ensure accurate and meaningful analysis results.
+### ✅ Requirements
 
-📈 Data Analysis & Insights
+- **Microsoft SQL Server**  
+  https://www.microsoft.com/sql-server  
 
-The project includes analytical queries for:
+- **SQL Server Management Studio (SSMS)**  
+  https://learn.microsoft.com/sql/ssms  
 
-Revenue by store
+> Works on **Windows**, **macOS**, and **Linux**  
+> (macOS / Linux via Docker or remote SQL Server)
 
-Monthly revenue trends
+---
 
-Top-selling products
+### 📥 Clone the Repository
 
-Average Order Value (AOV)
-
-Customer behavior (new vs returning customers)
-
-All queries are written with a business-first mindset.
-
-🧩 SQL Features Demonstrated
-
-JOINs and aggregations
-
-Common Table Expressions (CTEs)
-
-Views for reusable reports
-
-Stored Procedures with parameters
-
-Transactions with error handling (TRY / CATCH)
-
-Indexes for basic performance optimization
-
-▶️ How to Run This Project
-✅ Requirements (All Operating Systems)
-
-Microsoft SQL Server
-https://www.microsoft.com/sql-server
-
-SQL Server Management Studio (SSMS)
-https://learn.microsoft.com/sql/ssms
-
-Works on Windows, macOS, and Linux (via Docker / remote SQL Server).
-
-📥 Clone the Repository
+#### Windows / macOS / Linux
+```bash
 git clone https://github.com/Paoying5/retail-sales-sql-analytics.git
+Or download the repository as a ZIP file from GitHub.
+▶️ Run the SQL Scripts (Windows – SSMS)
 
+Open SQL Server Management Studio (SSMS)
 
-Or download as ZIP from GitHub.
-
-▶️ Run the SQL Files
-
-Open SSMS and connect to your SQL Server instance
+Connect to your SQL Server instance
 
 Open the .sql files from this repository
 
-Execute the scripts in order, for example:
+Execute the scripts in order:
 
-01_create_database.sql
+''' 01_create_database.sql
+    02_create_tables.sql
+    03_insert_sample_data.sql
+    04_data_cleaning.sql
+    05_analysis_queries.sql
+    10_transactions.sql '''
 
-02_create_tables.sql
 
-03_insert_sample_data.sql
 
-04_data_cleaning.sql
-
-05_analysis_queries.sql
-
-10_transactions.sql
-
-Review query results and outputs
+Review query results and analysis outputs
 
 No additional configuration is required.
 
 🎯 Learning Objectives
 
-This project demonstrates:
+This project demonstrates the ability to:
 
-Relational database design
+Design relational databases
 
-Data validation using constraints
+Apply data validation using constraints
 
-Data cleaning for analytics
+Clean data for analysis
 
-Translating business questions into SQL
+Translate business questions into SQL queries
 
-Writing readable, maintainable SQL code
+Write readable and maintainable SQL code
 
 🧑‍💻 Target Audience
 
@@ -201,4 +206,16 @@ GitHub: https://github.com/Paoying5
 LinkedIn: https://www.linkedin.com/in/ntr253
 
 📈 GitHub Stats
-<p> <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Paoying5&layout=compact" alt="Top Languages" /> </p> <p>&nbsp; <img align="center" src="https://github-readme-stats.vercel.app/api?username=Paoying5&show_icons=true" alt="GitHub Stats" /> </p>
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paoying5&layout=compact&langs_count=6&theme=default&cache_seconds=1800" 
+    alt="Top Languages" 
+  />
+</p>
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Paoying5&show_icons=true&theme=default&cache_seconds=1800" 
+    alt="GitHub Stats" 
+  />
+</p>
