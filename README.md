@@ -1,12 +1,27 @@
+Hi 👋, I'm Brian
+Aspiring Data Analyst | SQL Server & Data Analytics
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Paoying5&label=Profile%20views&color=0e75b6&style=flat" alt="Paoying5" /> </p>
+
+I’m an aspiring Data Analyst Intern with a strong interest in SQL Server, data modeling, and business-oriented data analysis.
+This repository showcases a retail sales analytics project designed to simulate real-world data analysis tasks.
+
 📊 Retail Sales & Customer Analytics System
 
-(SQL Server)
+(Microsoft SQL Server)
 
 🔎 Project Overview
 
-This project simulates a retail sales system and demonstrates how Microsoft SQL Server can be used to model data, ensure data quality, and perform business-oriented data analysis.
+This project simulates a retail sales system and demonstrates how Microsoft SQL Server can be used to:
 
-The project is designed for Internship / Fresher-level Data Analyst roles, focusing on clear logic, clean data, and practical insights, rather than complex or academic SQL.
+Design a relational database
+
+Enforce data integrity using constraints
+
+Clean and standardize data
+
+Perform business-focused analytical queries
+
+The project is built at an Internship / Fresher level, emphasizing clarity, correctness, and business understanding rather than overly complex SQL.
 
 🏢 Business Context
 
@@ -20,19 +35,19 @@ Multiple customers
 
 Sales transactions over time
 
-The goal is to answer common business questions such as:
+Business questions addressed:
 
 Which store generates the highest revenue?
 
-How does revenue change over time?
+How does revenue change by month?
 
 Which products sell the most?
 
-Are customers returning or purchasing only once?
+Are customers returning or buying only once?
 
 🗂️ Database Design
 
-The database is built using a relational model with the following tables:
+The database follows a relational model with the following tables:
 
 Stores – store information and location
 
@@ -42,15 +57,15 @@ Customers – customer demographic data
 
 Sales – sales transactions (orders)
 
-SaleDetails – detailed items per transaction
+SaleDetails – line items per transaction
 
-Relationships are enforced using Primary Keys and Foreign Keys to maintain data integrity and prevent invalid records.
+All relationships are enforced using Primary Keys and Foreign Keys to prevent invalid data.
 
 🔐 Data Integrity & Validation
 
-Basic business rules are enforced directly at the database level using constraints:
+Basic business rules are enforced directly at the database level:
 
-Sales total amount cannot be negative
+Total sales amount must be non-negative
 
 Product quantity must be greater than zero
 
@@ -58,21 +73,21 @@ Unit price must be non-negative
 
 Sales date cannot be in the future
 
-This ensures that incorrect data is blocked before analysis begins.
+This ensures data quality before analysis begins.
 
 🧹 Data Cleaning
 
-To reflect real-world scenarios, the project includes basic data cleaning steps:
+To reflect real-world data scenarios, the project includes:
 
 Handling missing product prices
 
 Standardizing missing customer birth years
 
-This helps avoid misleading results during analysis.
+These steps help ensure accurate and meaningful analysis results.
 
 📈 Data Analysis & Insights
 
-The project includes analytical queries that provide insights such as:
+The project includes analytical queries for:
 
 Revenue by store
 
@@ -82,15 +97,13 @@ Top-selling products
 
 Average Order Value (AOV)
 
-Customer repeat behavior (new vs returning customers)
+Customer behavior (new vs returning customers)
 
-These queries are written with a business-first mindset, focusing on interpretation rather than technical complexity.
+All queries are written with a business-first mindset.
 
-🧩 SQL Features Used
+🧩 SQL Features Demonstrated
 
-This project demonstrates practical usage of:
-
-SQL JOINs and aggregations
+JOINs and aggregations
 
 Common Table Expressions (CTEs)
 
@@ -102,10 +115,8 @@ Transactions with error handling (TRY / CATCH)
 
 Indexes for basic performance optimization
 
-All features are used in a clear and readable manner suitable for entry-level roles.
-
-▶️ How to Run the Project
-Requirements
+▶️ How to Run This Project
+✅ Requirements (All Operating Systems)
 
 Microsoft SQL Server
 https://www.microsoft.com/sql-server
@@ -113,29 +124,49 @@ https://www.microsoft.com/sql-server
 SQL Server Management Studio (SSMS)
 https://learn.microsoft.com/sql/ssms
 
-Steps
+Works on Windows, macOS, and Linux (via Docker / remote SQL Server).
+
+📥 Clone the Repository
+git clone https://github.com/Paoying5/retail-sales-sql-analytics.git
+
+
+Or download as ZIP from GitHub.
+
+▶️ Run the SQL Files
 
 Open SSMS and connect to your SQL Server instance
 
-Clone or download this repository
+Open the .sql files from this repository
 
-Execute the SQL files in order, from 01_create_database.sql to 10_transactions.sql
+Execute the scripts in order, for example:
 
-Review the sample queries and outputs for analysis results
+01_create_database.sql
+
+02_create_tables.sql
+
+03_insert_sample_data.sql
+
+04_data_cleaning.sql
+
+05_analysis_queries.sql
+
+10_transactions.sql
+
+Review query results and outputs
 
 No additional configuration is required.
 
 🎯 Learning Objectives
 
-This project was created to practice and demonstrate:
+This project demonstrates:
 
 Relational database design
 
-Data validation at the database level
+Data validation using constraints
 
-Data cleaning for analysis
+Data cleaning for analytics
 
-Translating business questions into SQL queries
+Translating business questions into SQL
 
 Writing readable, maintainable SQL code
 
@@ -162,5 +193,12 @@ https://learn.microsoft.com/sql/ssms
 
 👤 Author
 
-Your Name
-Aspiring Advanced Data Analysis Intern
+Brian
+Aspiring Data Analyst Intern
+
+GitHub: https://github.com/Paoying5
+
+LinkedIn: https://www.linkedin.com/in/ntr253
+
+📈 GitHub Stats
+<p> <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Paoying5&layout=compact" alt="Top Languages" /> </p> <p>&nbsp; <img align="center" src="https://github-readme-stats.vercel.app/api?username=Paoying5&show_icons=true" alt="GitHub Stats" /> </p>
