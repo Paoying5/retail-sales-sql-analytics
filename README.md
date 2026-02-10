@@ -111,18 +111,19 @@ All relationships use **Primary Keys** and **Foreign Keys**.
 
 ### Clone Repository
 
-```bash
+
 git clone https://github.com/Paoying5/retail-sales-sql-analytics.git
 
 Run SQL Scripts (SSMS)
 
 Execute in order:
+```bash
 01_create_database.sql
 02_create_tables.sql
 03_insert_sample_data.sql
 04_data_cleaning.sql
 05_analysis_queries.sql
-10_transactions.sql
+10_transactions.sql```
 
 🎯 Learning Objectives
 
@@ -143,4 +144,4 @@ GitHub: https://github.com/Paoying5
 LinkedIn: https://www.linkedin.com/in/ntr253
 
 📈 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paoying5&layout=compact&cache_seconds=1800" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Paoying5&show_icons=true&cache_seconds=1800" /> </p> ```
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paoying5&layout=compact&cache_seconds=1800" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Paoying5&show_icons=true&cache_seconds=1800" /> </p> 
