@@ -146,4 +146,4 @@ GitHub: https://github.com/Paoying5
 LinkedIn: https://www.linkedin.com/in/ntr253
 
 📈 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paoying5&layout=compact&cache_seconds=1800" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Paoying5&show_icons=true&cache_seconds=1800" /> </p> 
+[![GitHub Streak](https://streak-stats.demolab.com?user=Brian&theme=neon-dark&hide_border=sai&short_numbers=sai)](https://git.io/streak-stats)
