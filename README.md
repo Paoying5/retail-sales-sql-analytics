@@ -149,4 +149,5 @@ LinkedIn: https://www.linkedin.com/in/ntr253
 
 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Brian&theme=neon-dark&hide_border=sai&short_numbers=sai)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Paoying5&theme=neon-dark&timezone=Asia/Ho_Chi_Minh)](https://git.io/streak-stats)
+
